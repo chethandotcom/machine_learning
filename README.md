@@ -402,5 +402,10 @@ Linear Regression's have assumptions, they are:<br>
 4. **Independence of errors** (*Checking the Independence of Errors Assumption. The "I" in the LINE mnemonic stands for Independence of Errors. This means that the distribution of errors is random and not influenced by or correlated to the errors in prior observations. The opposite is independence is called autocorrelation.*)
 5. **Lack of multicollinearity** (*In statistics, multicollinearity (also collinearity) is a phenomenon in which one predictor variable in a multiple regression model can be linearly predicted from the others with a substantial degree of accuracy.*)
 
-Before building **Linear Regression** model. make sure these assumptions are true
+Before building **Linear Regression** model, make sure these assumptions are true
+
+In the given data set `50_Startups.csv` we need to perform `Data Preprocessing` the same way we did earlier with `Linear Regression`. In this example, we need to make ud `Dummy variable` since we column with state names. We need to replace state names into separate columns with `0 or 1 value`
+
+![alt text](images/multiple_linear_regression/multiple_linear_regression_dummy_variables.png)
+
 
