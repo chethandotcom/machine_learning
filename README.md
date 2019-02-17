@@ -158,7 +158,12 @@ In Python, which of the following library can best help manage datasets ?<br>
 2. pandas
 3. matplotlib
 
-<details><summary>Check answer</summary>pandas</details>
+<details><summary>Check answer</summary>
+
+```
+pandas
+```
+</details>
 <br>
 
 **Question 2:**<br>
@@ -168,7 +173,12 @@ Which of the following is not a recommended strategy to take care of missing dat
 3. Replace the missing data by the mean of the feature column
 4. Replace the missing data by the most frequent value of the feature column
 
-<details><summary>Check answer</summary>Delete the observation that contains the missing data</details>
+<details><summary>Check answer</summary>
+
+```
+Delete the observation that contains the missing data
+```
+</details>
 <br>
 
 **Question 3:**<br>
@@ -176,7 +186,12 @@ Do we need to apply OneHotEncoder to encode an independent variable that gives t
 1. Yes
 2. No
 
-<details><summary>Check answer</summary>No</details>
+<details><summary>Check answer</summary>
+
+```
+No
+```
+</details>
 <br>
 
 **Question 4:**<br>
@@ -185,8 +200,12 @@ What is the worst choice of split ratio Training set : Test set ?
 2. 75:25
 3. 50:50
 
-<details><summary>Check answer</summary>50:50</details>
+<details><summary>Check answer</summary>
 
+```
+50:50
+```
+</details>
 <br>
 <br>
 
