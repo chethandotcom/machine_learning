@@ -152,15 +152,16 @@ X_test = sc_X.transform(X_test)"""
 ```
 
 ## QUIZ
-Question 1:<br>
+**Question 1:**<br>
 In Python, which of the following library can best help manage datasets ?<br>
 1. numpy
 2. pandas
 3. matplotlib
 
 <details><summary>Check answer</summary>pandas</details>
+<br>
 
-Question 2:<br>
+**Question 2:**<br>
 Which of the following is not a recommended strategy to take care of missing data ?
 1. Replace the missing data by the median of the feature column
 2. Delete the observation that contains the missing data
@@ -168,15 +169,17 @@ Which of the following is not a recommended strategy to take care of missing dat
 4. Replace the missing data by the most frequent value of the feature column
 
 <details><summary>Check answer</summary>Delete the observation that contains the missing data</details>
+<br>
 
-Question 3:<br>
+**Question 3:**<br>
 Do we need to apply OneHotEncoder to encode an independent variable that gives the size S, M or L of a t-shirt ?
 1. Yes
 2. No
 
 <details><summary>Check answer</summary>No</details>
+<br>
 
-Question 4:<br>
+**Question 4:**<br>
 What is the worst choice of split ratio Training set : Test set ?
 1. 80:20
 2. 75:25
