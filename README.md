@@ -269,3 +269,56 @@ sc_X = StandardScaler()
 X_train = sc_X.fit_transform(X_train)
 X_test = sc_X.transform(X_test)"""
 ```
+<br>
+
+
+**Linear Regression** library is provided in **Sci Kit** 
+```
+from sklearn.linear_model import LinearRegression
+```
+
+Steps we will follow to create simple Linear Regression is:<br>
+1. Import `Linear Regression` class from `SK`
+2. Create a `regressor` object from `Linear Regression` class
+3. Fit the `regressor` to the training set
+
+To fit the regressor to the training set, we use `fit()` method from `LinearRegression class`
+
+```
+# Fitting Simple Linear Regression to the Training Set
+from sklearn.linear_model import LinearRegression
+regressor = LinearRegression()
+regressor.fit(X_train, y_train)
+```
+
+Now our Machine has learned using Linear Regression<br>
+Lets test how well it can predict the values for *test data*
+
+To start prediction, we follow:<br>
+1. Create a `vector` of predicted values
+2. Call `predict` method from `Linear Regression` class
+
+```
+# Predicting the Test set result
+y_pred = regressor.predict(X_test)
+```
+
+**Visualising the Training set results**
+To plot in python, we use `matplotlib`<br>
+Let first Plot the real observation point.
+```
+# Visualising the Training set results
+# 1. Plotting using scatter graph
+plt.scatter(X_train, y_train, color = 'red') 
+# 2. Here plot X_train data vs Linear Regression Predicted X_train data just for 
+#    understanding Accuracy of our prediction model
+plt.plot(X_train, regressor.predict(X_train), color = 'blue')
+# Setting the title for Graph
+plt.title('Salary vs Experience(Training set)')
+# Setting label for X and Y axis
+plt.xlabel('Experience in years')
+plt.ylabel('Salary')
+# Finally show the graph
+plt.show()
+```
+
