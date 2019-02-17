@@ -156,4 +156,4 @@ In Python, which of the following library can best help manage datasets ?<br>
 2. pandas
 3. matplotlib
 
->! pandas
+<details><summary>Check answer</summary>pandas</details>
