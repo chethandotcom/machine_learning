@@ -394,3 +394,13 @@ b1 = Coefficient
 b0 = Constant
 ```
 
+Before starting **Multiple Linear Regression** there is some Caveat(Limitations) in **Linear Regression**<br>
+Linear Regression's have assumptions, they are:<br>
+1. **Linearity** (*Linearity is the behavior of a circuit, particularly an amplifier , in which the output signal strength varies in direct proportion to the input signal strength*)
+2. **Homoscedasticity** (*In statistics, a sequence or a vector of random variables is homoscedastic /ˌhoʊmoʊskəˈdæstɪk/ if all random variables in the sequence or vector have the same finite variance.*)
+3. **Multivariate normality** (*It is the normal is parameterized by its mean and variance, but unlike the univariate normal, the former is a mean vector and the latter is a covariance matrix.*)
+4. **Independence of errors** (*Checking the Independence of Errors Assumption. The "I" in the LINE mnemonic stands for Independence of Errors. This means that the distribution of errors is random and not influenced by or correlated to the errors in prior observations. The opposite is independence is called autocorrelation.*)
+5. **Lack of multicollinearity** (*In statistics, multicollinearity (also collinearity) is a phenomenon in which one predictor variable in a multiple regression model can be linearly predicted from the others with a substantial degree of accuracy.*)
+
+Before building **Linear Regression** model. make sure these assumptions are true
+
