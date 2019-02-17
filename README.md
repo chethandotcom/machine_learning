@@ -1,3 +1,5 @@
+# Machine Learning
+
 # Data Preprocessing
 
 ## Three essential libraries
@@ -157,3 +159,44 @@ In Python, which of the following library can best help manage datasets ?<br>
 3. matplotlib
 
 <details><summary>Check answer</summary>pandas</details>
+
+Question 2:<br>
+Which of the following is not a recommended strategy to take care of missing data ?
+1. Replace the missing data by the median of the feature column
+2. Delete the observation that contains the missing data
+3. Replace the missing data by the mean of the feature column
+4. Replace the missing data by the most frequent value of the feature column
+
+<details><summary>Check answer</summary>Delete the observation that contains the missing data</details>
+
+Question 3:<br>
+Do we need to apply OneHotEncoder to encode an independent variable that gives the size S, M or L of a t-shirt ?
+1. Yes
+2. No
+
+<details><summary>Check answer</summary>No</details>
+
+Question 4:<br>
+What is the worst choice of split ratio Training set : Test set ?
+1. 80:20
+2. 75:25
+3. 50:50
+
+<details><summary>Check answer</summary>50:50</details>
+
+<br>
+<br>
+
+# Regression
+Regression models (both linear and non-linear) are used for predicting a real value, like salary for example. If your independent variable is time, then you are forecasting future values, otherwise your model is predicting present but unknown values. Regression technique vary from Linear Regression to SVR and Random Forests Regression.
+
+In this part, you will understand and learn how to implement the following Machine Learning Regression models:
+```
+1. Simple Linear Regression
+2. Multiple Linear Regression
+3. Polynomial Regression
+4. Support Vector for Regression (SVR)
+5. Decision Tree Classification
+6. Random Forest Classification
+```
+
