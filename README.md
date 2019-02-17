@@ -222,3 +222,21 @@ In this part, you will understand and learn how to implement the following Machi
 6. Random Forest Classification
 ```
 
+## Simple Linear Regression
+Formula:
+
+![alt text](images/simple_linear_regression/simple_linear_regression_formula_1.png)
+```
+y = Dependant variable(DV)
+x = Independant variable(IV)
+b1 = Coefficient
+b0 = Constant
+```
+
+![alt text](images/simple_linear_regression/simple_linear_regression_example_formaula_1.png)
+
+<br>
+
+**Ordinary Least Squares**
+![alt text](images/simple_linear_regression/ordinary_least_squares.png)
+
