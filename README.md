@@ -389,7 +389,8 @@ Formula:
 ![alt text](images/multiple_linear_regression/multiple_linear_regression_formula_1.png)
 ```
 y = Dependant variable(DV)
-x<sub>1</sub> , x<sub>2</sub> .. x<sub>N</sub> = Independant variable(IV)
+x1, x2 .. xn = Independant variable(IV)
 b1 = Coefficient
 b0 = Constant
 ```
+
