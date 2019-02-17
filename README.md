@@ -321,4 +321,66 @@ plt.ylabel('Salary')
 # Finally show the graph
 plt.show()
 ```
+<br>
 
+**Visualising the Test set results**
+
+```
+# Visualising the Test set results
+# 1. Plotting using scatter graph
+plt.scatter(X_test, y_test, color = 'red') 
+# 2. Here plot X_train data vs Linear Regression Predicted X_train data just for 
+#    understanding Accuracy of our prediction model
+plt.plot(X_train, regressor.predict(X_train), color = 'blue')
+# Setting the title for Graph
+plt.title('Salary vs Experience(Test set)')
+# Setting label for X and Y axis
+plt.xlabel('Experience in years')
+plt.ylabel('Salary')
+# Finally show the graph
+plt.show()
+```
+
+## QUIZ
+**Question 1:**<br>
+We should use Simple Linear Regression to predict the winner of a football game?<br>
+1. Yes
+2. No
+
+<details><summary>Check answer</summary>
+
+```
+No
+```
+</details>
+<br>
+
+**Question 2:**<br>
+What is the class used in Python to create a simple linear regressor ?<br>
+1. SimpleLinear
+2. LinearRegression
+3. SimpleLinearRegression
+
+<details><summary>Check answer</summary>
+
+```
+LinearRegression
+```
+</details>
+<br>
+
+**Question 3:**<br>
+Which of the following formulas is not a simple linear regression model ?<br>
+1. Salary = a * Experience
+2. Salary = a * Experience + b
+3. Salary = a * Experience + b * Age
+
+<details><summary>Check answer</summary>
+
+```
+Salary = a * Experience + b * Age
+```
+</details>
+<br>
+
+## Multiple Linear Regression
