@@ -436,3 +436,31 @@ A large p-value indicates that it would be pretty normal to get a sample like ou
 For more detailed information, watch it on [YouTube - Understanding the P-Variable](https://www.youtube.com/watch?v=eyknGvncKLw)
 
 -----------
+
+### Buliding a Model
+
+5 methods of builiding a model
+1. All-in
+2. Backward Elimination
+3. Forward Selection
+4. Bidirectional Elimination
+5. Score Comparision
+
+**Backward Elimination, Forward Selection & Bidirectional Elimination** are known as `Stepswise Regression`
+
+<br>
+
+**All-in**<br>
+Throwing all your variables to build a model. Following are the cases we use **All-in**
+1. Prior knowledge; OR
+2. You have to; OR
+3. Prerparing for Backward Elimination
+
+**Backward Elimination**<br>
+1. Select a significance level to stay in the model(eg, SL = 0.05)
+2. Fit the full model in all possible predictors
+3. Consider the predictor with highest `P-Value`. If **P > SL** go to **STEP 4** else go to **FIN**
+4. Remove the Preditor
+5. Fit model without this variable. Go to **STEP 3** and repeat the process
+
+**FIN(FINISH):** Model is Ready
