@@ -415,3 +415,24 @@ In the given data set `50_Startups.csv` we need to perform `Data Preprocessing` 
 Whenever building a model, always `OMIT 1 Dummy variable` in the set.<br>
 For example if you have 9, then only include 8 Dummy variable.
 
+
+---------------
+
+**P-Value**<br>
+Before continuing to `Backward eliminaiton`, lets understand `What is the P-Value?`
+
+In statistics, we always seem to come across this p-value thing. If you have been studying for a while, you are used to the idea that a small p-value makes you reject the null hypothesis. But what if I asked you to explain exactly what that number really represented!?
+
+Understanding the p-value will really help you deepen your understanding of hypothesis testing in general. Before I talk about what the p-value is, let’s talk about what it isn’t.
+
+1. **The p-value is NOT the probability the claim is true.** Of course, this would be an amazing thing to know! Think of it “there is 10% chance that this medicine works”. Unfortunately, this just isnt the case. Actually determining this probability would be really tough if not impossible!
+The p-value is NOT the probability the null hypothesis is true. Another one that seems so logical it has to be right! This one is much closer to the reality, but again it is way too strong of a statement.
+2. **The p-value is actually the probability of getting a sample like ours, or more extreme than ours IF the null hypothesis is true.** So, we assume the null hypothesis is true and then determine how “strange” our sample really is. If it is not that strange (a large p-value) then we don’t change our mind about the null hypothesis. As the p-value gets smaller, we start wondering if the null really is true and well maybe we should change our minds (and reject the null hypothesis).
+
+A little more detail: A small p-value indicates that by pure luck alone, it would be unlikely to get a sample like the one we have if the null hypothesis is true. If this is small enough we start thinking that maybe we aren’t super lucky and instead our assumption about the null being true is wrong. Thats why we reject with a small p-value.
+
+A large p-value indicates that it would be pretty normal to get a sample like ours if the null hypothesis is true. So you can see, there is no reason here to change our minds like we did with a small p-value.
+
+[Understanding the](https://www.youtube.com/watch?v=eyknGvncKLw)
+
+-----------
