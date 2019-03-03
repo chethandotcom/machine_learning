@@ -433,6 +433,6 @@ A little more detail: A small p-value indicates that by pure luck alone, it woul
 
 A large p-value indicates that it would be pretty normal to get a sample like ours if the null hypothesis is true. So you can see, there is no reason here to change our minds like we did with a small p-value.
 
-[Understanding the](https://www.youtube.com/watch?v=eyknGvncKLw)
+For more detailed information, watch it on [YouTube - Understanding the P-Variable](https://www.youtube.com/watch?v=eyknGvncKLw)
 
 -----------
