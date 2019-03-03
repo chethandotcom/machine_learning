@@ -408,4 +408,10 @@ In the given data set `50_Startups.csv` we need to perform `Data Preprocessing` 
 
 ![alt text](images/multiple_linear_regression/multiple_linear_regression_dummy_variables.png)
 
+<br>
+
+**Dummy Variable Trap**
+
+Whenever building a model, always omit 1 Dummy variable in the set.
+For example if you have 9, then only inclusde 8 Dummy variable.
 
